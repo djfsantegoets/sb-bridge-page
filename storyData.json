@@ -1,0 +1,55 @@
+{
+  "startNode": "node_1778008312123",
+  "nodes": {
+    "node_1778008312123": {
+      "id": "node_1778008312123",
+      "type": "media",
+      "isEnd": false,
+      "label": "Media",
+      "choices": [
+        {
+          "label": "One",
+          "nextNode": "node_1778008450576"
+        },
+        {
+          "label": "Two",
+          "nextNode": "node_1778008428830"
+        }
+      ],
+      "title": "Dit is een test",
+      "content": "Dit is ook een test...",
+      "mediaType": "image",
+      "url": "https://picsum.photos/400/750",
+      "defaultNextNode": null
+    },
+    "node_1778008428830": {
+      "id": "node_1778008428830",
+      "type": "media",
+      "isEnd": false,
+      "label": "Media",
+      "choices": [
+        {
+          "label": "Done",
+          "nextNode": "node_1778008450576"
+        }
+      ],
+      "mediaType": "image",
+      "url": "https://picsum.photos/400/750",
+      "overlayColor": "#ff8000",
+      "defaultNextNode": null
+    },
+    "node_1778008450576": {
+      "id": "node_1778008450576",
+      "type": "end",
+      "isEnd": true,
+      "label": "Finish",
+      "choices": [],
+      "defaultNextNode": null
+    }
+  },
+  "settings": {
+    "webhookUrl": "",
+    "pageTitle": "",
+    "customFaviconDataUrl": ""
+  }
+}
